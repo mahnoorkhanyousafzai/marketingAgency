@@ -1,0 +1,337 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+.TopBar{
+    background-color:black;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+height:4rem ;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+.navbar{
+    background-color: white;
+    padding-left: 80px;
+   margin-top: -2.3rem;
+
+}
+.navbar a{
+    color: black;
+
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.navbar-brand:hover{
+    color: darkgray;
+}
+
+.collapse{
+  margin-left: 20rem;
+
+  
+}
+.collapse a{
+    font-weight: 350;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+    .btnColl a{
+font-weight: 200;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 1rem;
+    }
+    .Signin{
+        background-color: white;
+        border: transparent;
+
+    }
+    .register{
+        width: 8rem;
+        height: 3rem;
+        margin-top: -0.5rem;
+        background-color: black;
+        color: white;
+        border-radius: 40px; 
+     
+    }
+    .Signin:hover{
+        color: darkgray;
+    }
+.register:hover{
+    color: darkgray;
+}
+.section{
+    opacity: 0; /* Initially set opacity to 0 */
+    animation: fadeInUp 1s ease-in-out forwards; /* Use the fadeInUp animation */
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#mainArea{
+    padding: 20px;
+ 
+}
+
+.pMain{
+    color: rgb(77, 77, 77);
+ text-transform: uppercase;
+}
+.hMain{
+    font-size: 5.5rem;
+}
+.hrch{
+    margin-top: -2px;
+}
+.Sbtn{
+    height: 3rem;
+    width: 12rem;
+    padding: 10px;
+text-align: center;
+background-color:#1086b9 ;
+border: 3px solid #1086b9;
+color: white;
+border-radius: 40px;
+}
+.Sbtn:hover{
+    background-color: transparent;
+    color: black;
+}
+.Dbtn{
+    text-align: center;
+    width: 8rem;
+    height: 3rem;   
+    padding: 10px;
+    background-color: transparent;
+    border: 3px solid #1086b9;
+    border-radius: 40px;
+    font-weight: 600;
+}
+.Dbtn:hover{
+    background-color:#1086b9 ;
+    color: white;
+}
+.secondArea{
+    background-color: rgb(234, 232, 230);
+   
+    padding: 20px;
+    padding-top: 40px;
+   
+}
+.secondArea ul{
+    list-style: none;
+    text-align: center;
+}
+.flexContainer{
+    display: flex;
+
+      flex-wrap: wrap;
+    
+}
+.secondArea li{
+    display: inline;
+    margin-left: 2rem;
+}
+.FlexItem{
+  
+   margin-left: 2.5rem;
+    background-color: white; /* Just for visualization purposes */
+    color: black;
+    padding: 2%;
+    border-radius: 5%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(13, 13, 13, 0.1);
+}
+
+.FlexItem p{
+    color: #1086b9;
+}
+
+.secondArea li:hover{
+opacity: 0.5;
+
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 250px;
+    height: 350px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-out, border-color 0.3s ease-out;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+    border-color: #3498db;
+  }
+
+  .card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  .card p {
+    padding: 10px;
+    margin: 0;
+    flex-grow: 1;
+  }
+
+  .card button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #1086b9;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+  }
+
+  .card:hover button {
+    background-color: #2980b9;
+  }
+  .FourthArea{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  .FourthArea h1{
+    font-size: 2.5rem;
+  }
+  .FourthArea p{
+    color: gray;
+  }
+  
+  .custom-slider-container {
+    width: 40%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .custom-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .custom-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .customer-review {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+  }
+
+  .customer-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .customer-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .customer-comment {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .custom-prev, .custom-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    background-color: #ddd;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+  }
+
+  .custom-prev { left: 10px; }
+  .custom-next { right: 10px; }
+
+  .flexpoly{
+    display: flex;
+    text-align: center;
+
+  }
+  .flex-item{
+    background-color: white;
+    text-align: center;
+    padding: 12px;
+  }
+  .pDiv{
+    
+    color: black;
+  }
+  .Last{
+    background-color: rgb(234, 232, 230);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer{
+
+    padding: 30px;
+text-align: center;
+    background-color: rgb(41, 41, 41);
+    color: white;
+  }
+  .FOOTER-Ul {
+    list-style-type: none;
+  }
+  .FOOTER-Ul2{
+    list-style-type: none;
+    font-size: 1.2rem;
+
+  }
+ .FOOTER-Ul2 li a{
+  text-decoration: none;
+ color: gray;
+ }
+ .FOOTER-Ul2 li a:hover{
+  color: #1086b9;
+ }
+  .FOOTER-Ul li{
+    display: inline-block;
+    margin-left: 2%;
+
+  }
+  .FOOTER-Ul li i{
+    font-size: 2rem;
+    color: #1086b9;
+  }
